@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "work-04"
+version = "0.1.0"
+description = ""
+authors = ["autotropa <autotropa@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "work_04"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
